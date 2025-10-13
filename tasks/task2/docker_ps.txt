@@ -1,0 +1,6 @@
+CONTAINER ID   IMAGE                             COMMAND                  CREATED          STATUS          PORTS                                        NAMES
+8f2302c1c40e   confluentinc/cp-kafka:7.2.1       "/etc/confluent/dock…"   16 seconds ago   Up 14 seconds   0.0.0.0:9092->9092/tcp                       task2-kafka-1
+e70878af1ae2   confluentinc/cp-zookeeper:7.2.1   "/etc/confluent/dock…"   16 seconds ago   Up 14 seconds   2888/tcp, 0.0.0.0:2181->2181/tcp, 3888/tcp   task2-zookeeper-1
+d5ef79a042aa   task2-monolith                    "java -jar app.jar"      16 seconds ago   Up 14 seconds   0.0.0.0:8084->8080/tcp                       hotelio-monolith
+624b4b6aa467   postgres:15                       "docker-entrypoint.s…"   16 seconds ago   Up 14 seconds   0.0.0.0:5432->5432/tcp                       hotelio-db
+

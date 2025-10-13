@@ -1,0 +1,13 @@
+C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\BookingDB\bin\Debug\net8.0\BookingDB.deps.json
+C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\BookingDB\bin\Debug\net8.0\BookingDB.dll
+C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\BookingDB\bin\Debug\net8.0\BookingDB.pdb
+C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.csproj.AssemblyReference.cache
+C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.AssemblyInfoInputs.cache
+C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.AssemblyInfo.cs
+C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.sourcelink.json
+C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.dll
+C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\BookingDB\obj\Debug\net8.0\refint\BookingDB.dll
+C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.pdb
+C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\BookingDB\obj\Debug\net8.0\ref\BookingDB.dll
