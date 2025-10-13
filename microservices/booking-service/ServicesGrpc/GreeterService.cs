@@ -1,7 +1,7 @@
 using booking_service;
 using Grpc.Core;
 
-namespace booking_service.Services
+namespace booking_service.ServicesGrpc
 {
     public class GreeterService : Greeter.GreeterBase
     {

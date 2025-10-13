@@ -1,7 +1,7 @@
 ﻿using booking_service.Interfaces;
 using Grpc.Core;
 
-namespace booking_service.Services
+namespace booking_service.ServicesGrpc
 {
     public class BookingService : Booking.BookingBase
     {
