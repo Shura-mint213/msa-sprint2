@@ -80,9 +80,12 @@ namespace booking_service.Services
                     Value = JsonSerializer.Serialize(new
                     {
                         BookingId = pending.BookingId,
-                        FinalPrice = booking.Price
+                        FinalPrice = booking.Price,
+                        UserId = booking.UserId,
+                        HotelId = booking.HotelId
                     })
                 });
+                _pendingValidations.TryRemove(pending.CorrelationId, out _);
             }
             else
             {
@@ -94,10 +97,13 @@ namespace booking_service.Services
                     Value = JsonSerializer.Serialize(new
                     {
                         BookingId = pending.BookingId,
-                        Reason = pending.FailureReason()
+                        Reason = pending.FailureReason(),
+                        UserId = booking.UserId,    
+                        HotelId = booking.HotelId   
                     })
                 });
 
+                _pendingValidations.TryRemove(pending.CorrelationId, out _);
                 _dbContext.Bookings.Remove(booking);
                 await _dbContext.SaveChangesAsync();
             }

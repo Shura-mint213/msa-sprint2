@@ -1,34 +1,164 @@
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.csproj.AssemblyReference.cache
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.AssemblyInfoInputs.cache
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.AssemblyInfo.cs
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.csproj.CoreCompileInputs.cache
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.sourcelink.json
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\bin\Debug\net8.0\appsettings.json
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\bin\Debug\net8.0\booking-service.staticwebassets.endpoints.json
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\bin\Debug\net8.0\booking-service.exe
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\bin\Debug\net8.0\booking-service.deps.json
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\bin\Debug\net8.0\booking-service.runtimeconfig.json
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\bin\Debug\net8.0\booking-service.dll
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\bin\Debug\net8.0\booking-service.pdb
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\bin\Debug\net8.0\Google.Protobuf.dll
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\bin\Debug\net8.0\Grpc.AspNetCore.Server.ClientFactory.dll
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\bin\Debug\net8.0\Grpc.Core.Api.dll
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\bin\Debug\net8.0\Grpc.Net.Client.dll
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\bin\Debug\net8.0\Grpc.Net.Common.dll
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\scopedcss\bundle\booking-service.styles.css
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\staticwebassets.build.json.cache
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-.7A8DF369.Up2Date
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.dll
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\refint\booking-service.dll
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.pdb
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.genruntimeconfig.cache
-C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\booking-service\obj\Debug\net8.0\ref\booking-service.dll
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.csproj.AssemblyReference.cache
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.AssemblyInfoInputs.cache
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.AssemblyInfo.cs
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.csproj.CoreCompileInputs.cache
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.MvcApplicationPartsAssemblyInfo.cache
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.sourcelink.json
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\appsettings.Development.json
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\appsettings.json
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\booking-service.staticwebassets.endpoints.json
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\booking-service.exe
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\booking-service.deps.json
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\booking-service.runtimeconfig.json
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\booking-service.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\booking-service.pdb
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Confluent.Kafka.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Google.Protobuf.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Grpc.AspNetCore.Server.ClientFactory.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Grpc.Core.Api.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Grpc.Net.Client.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Grpc.Net.Common.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Humanizer.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Npgsql.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\System.CodeDom.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\System.Text.Json.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\linux-arm64\native\librdkafka.so
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\linux-x64\native\alpine-librdkafka.so
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\linux-x64\native\centos8-librdkafka.so
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\linux-x64\native\librdkafka.so
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\osx-arm64\native\librdkafka.dylib
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\osx-x64\native\librdkafka.dylib
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x64\native\libcrypto-3-x64.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x64\native\libcurl.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x64\native\librdkafka.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x64\native\librdkafkacpp.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x64\native\libssl-3-x64.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x64\native\msvcp140.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x64\native\vcruntime140.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x64\native\zlib1.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x64\native\zstd.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x86\native\libcrypto-3.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x86\native\libcurl.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x86\native\librdkafka.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x86\native\librdkafkacpp.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x86\native\libssl-3.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x86\native\msvcp140.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x86\native\vcruntime140.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x86\native\zlib1.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\win-x86\native\zstd.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\BookingDB.dll
+D:\study\microservices\2_sprint\microservices\booking-service\bin\Debug\net8.0\BookingDB.pdb
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\scopedcss\bundle\booking-service.styles.css
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\staticwebassets.build.json
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\staticwebassets.development.json
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-.7A8DF369.Up2Date
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.dll
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\refint\booking-service.dll
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.pdb
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\booking-service.genruntimeconfig.cache
+D:\study\microservices\2_sprint\microservices\booking-service\obj\Debug\net8.0\ref\booking-service.dll

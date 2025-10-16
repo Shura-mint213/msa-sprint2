@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexandr\\OneDrive\\Рабочий стол\\teaching\\Микросервисы\\2_sprint\\microservices\\booking-service\\booking-service.csproj": {}
+    "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\booking-service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexandr\\OneDrive\\Рабочий стол\\teaching\\Микросервисы\\2_sprint\\microservices\\booking-service\\booking-service.csproj": {
+    "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\booking-service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexandr\\OneDrive\\Рабочий стол\\teaching\\Микросервисы\\2_sprint\\microservices\\booking-service\\booking-service.csproj",
+        "projectUniqueName": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\booking-service.csproj",
         "projectName": "booking-service",
-        "projectPath": "C:\\Users\\Alexandr\\OneDrive\\Рабочий стол\\teaching\\Микросервисы\\2_sprint\\microservices\\booking-service\\booking-service.csproj",
+        "projectPath": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\booking-service.csproj",
         "packagesPath": "C:\\Users\\Alexandr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexandr\\OneDrive\\Рабочий стол\\teaching\\Микросервисы\\2_sprint\\microservices\\booking-service\\obj\\",
+        "outputPath": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Alexandr\\OneDrive\\Рабочий стол\\teaching\\Микросервисы\\2_sprint\\microservices\\BookingDB\\BookingDB.csproj": {
-                "projectPath": "C:\\Users\\Alexandr\\OneDrive\\Рабочий стол\\teaching\\Микросервисы\\2_sprint\\microservices\\BookingDB\\BookingDB.csproj"
+              "D:\\study\\microservices\\2_sprint\\microservices\\BookingDB\\BookingDB.csproj": {
+                "projectPath": "D:\\study\\microservices\\2_sprint\\microservices\\BookingDB\\BookingDB.csproj"
               }
             }
           }
@@ -63,9 +63,26 @@
               "target": "Package",
               "version": "[2.57.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.22.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             }
           },
           "imports": [
@@ -91,14 +108,14 @@
         }
       }
     },
-    "C:\\Users\\Alexandr\\OneDrive\\Рабочий стол\\teaching\\Микросервисы\\2_sprint\\microservices\\BookingDB\\BookingDB.csproj": {
+    "D:\\study\\microservices\\2_sprint\\microservices\\BookingDB\\BookingDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexandr\\OneDrive\\Рабочий стол\\teaching\\Микросервисы\\2_sprint\\microservices\\BookingDB\\BookingDB.csproj",
+        "projectUniqueName": "D:\\study\\microservices\\2_sprint\\microservices\\BookingDB\\BookingDB.csproj",
         "projectName": "BookingDB",
-        "projectPath": "C:\\Users\\Alexandr\\OneDrive\\Рабочий стол\\teaching\\Микросервисы\\2_sprint\\microservices\\BookingDB\\BookingDB.csproj",
+        "projectPath": "D:\\study\\microservices\\2_sprint\\microservices\\BookingDB\\BookingDB.csproj",
         "packagesPath": "C:\\Users\\Alexandr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexandr\\OneDrive\\Рабочий стол\\teaching\\Микросервисы\\2_sprint\\microservices\\BookingDB\\obj\\",
+        "outputPath": "D:\\study\\microservices\\2_sprint\\microservices\\BookingDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -138,6 +155,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[8.0.11, )"

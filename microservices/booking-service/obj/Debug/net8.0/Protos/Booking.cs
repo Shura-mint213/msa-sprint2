@@ -26,22 +26,22 @@ namespace booking_service {
           string.Concat(
             "ChRQcm90b3MvYm9va2luZy5wcm90bxIHYm9va2luZyJHCg5Cb29raW5nUmVx",
             "dWVzdBIPCgd1c2VyX2lkGAEgASgJEhAKCGhvdGVsX2lkGAIgASgJEhIKCnBy",
-            "b21vX2NvZGUYAyABKAkioQEKD0Jvb2tpbmdSZXNwb25zZRIKCgJpZBgBIAEo",
+            "b21vX2NvZGUYAyABKAkikQEKD0Jvb2tpbmdSZXNwb25zZRIKCgJpZBgBIAEo",
             "CRIPCgd1c2VyX2lkGAIgASgJEhAKCGhvdGVsX2lkGAMgASgJEhIKCnByb21v",
-            "X2NvZGUYBCABKAkSGAoQZGlzY291bnRfcGVyY2VudBgFIAEoARIOCgZzdGF0",
-            "dXMYBiABKAkSDQoFcHJpY2UYByABKAESEgoKY3JlYXRlZF9hdBgIIAEoCSIl",
-            "ChJCb29raW5nTGlzdFJlcXVlc3QSDwoHdXNlcl9pZBgBIAEoCSJBChNCb29r",
-            "aW5nTGlzdFJlc3BvbnNlEioKCGJvb2tpbmdzGAEgAygLMhguYm9va2luZy5C",
-            "b29raW5nUmVzcG9uc2UymAEKB0Jvb2tpbmcSQgoNQ3JlYXRlQm9va2luZxIX",
-            "LmJvb2tpbmcuQm9va2luZ1JlcXVlc3QaGC5ib29raW5nLkJvb2tpbmdSZXNw",
-            "b25zZRJJCgxMaXN0Qm9va2luZ3MSGy5ib29raW5nLkJvb2tpbmdMaXN0UmVx",
-            "dWVzdBocLmJvb2tpbmcuQm9va2luZ0xpc3RSZXNwb25zZUISqgIPYm9va2lu",
-            "Z19zZXJ2aWNlYgZwcm90bzM="));
+            "X2NvZGUYBCABKAkSGAoQZGlzY291bnRfcGVyY2VudBgFIAEoARINCgVwcmlj",
+            "ZRgGIAEoARISCgpjcmVhdGVkX2F0GAcgASgJIiUKEkJvb2tpbmdMaXN0UmVx",
+            "dWVzdBIPCgd1c2VyX2lkGAEgASgJIkEKE0Jvb2tpbmdMaXN0UmVzcG9uc2US",
+            "KgoIYm9va2luZ3MYASADKAsyGC5ib29raW5nLkJvb2tpbmdSZXNwb25zZTKf",
+            "AQoOQm9va2luZ1NlcnZpY2USQgoNQ3JlYXRlQm9va2luZxIXLmJvb2tpbmcu",
+            "Qm9va2luZ1JlcXVlc3QaGC5ib29raW5nLkJvb2tpbmdSZXNwb25zZRJJCgxM",
+            "aXN0Qm9va2luZ3MSGy5ib29raW5nLkJvb2tpbmdMaXN0UmVxdWVzdBocLmJv",
+            "b2tpbmcuQm9va2luZ0xpc3RSZXNwb25zZUISqgIPYm9va2luZ19zZXJ2aWNl",
+            "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::booking_service.BookingRequest), global::booking_service.BookingRequest.Parser, new[]{ "UserId", "HotelId", "PromoCode" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::booking_service.BookingResponse), global::booking_service.BookingResponse.Parser, new[]{ "Id", "UserId", "HotelId", "PromoCode", "DiscountPercent", "Status", "Price", "CreatedAt" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::booking_service.BookingResponse), global::booking_service.BookingResponse.Parser, new[]{ "Id", "UserId", "HotelId", "PromoCode", "DiscountPercent", "Price", "CreatedAt" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::booking_service.BookingListRequest), global::booking_service.BookingListRequest.Parser, new[]{ "UserId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::booking_service.BookingListResponse), global::booking_service.BookingListResponse.Parser, new[]{ "Bookings" }, null, null, null, null)
           }));
@@ -361,7 +361,6 @@ namespace booking_service {
       hotelId_ = other.hotelId_;
       promoCode_ = other.promoCode_;
       discountPercent_ = other.discountPercent_;
-      status_ = other.status_;
       price_ = other.price_;
       createdAt_ = other.createdAt_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -433,20 +432,8 @@ namespace booking_service {
       }
     }
 
-    /// <summary>Field number for the "status" field.</summary>
-    public const int StatusFieldNumber = 6;
-    private string status_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Status {
-      get { return status_; }
-      set {
-        status_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
     /// <summary>Field number for the "price" field.</summary>
-    public const int PriceFieldNumber = 7;
+    public const int PriceFieldNumber = 6;
     private double price_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -458,7 +445,7 @@ namespace booking_service {
     }
 
     /// <summary>Field number for the "created_at" field.</summary>
-    public const int CreatedAtFieldNumber = 8;
+    public const int CreatedAtFieldNumber = 7;
     private string createdAt_ = "";
     /// <summary>
     /// ISO-8601
@@ -492,7 +479,6 @@ namespace booking_service {
       if (HotelId != other.HotelId) return false;
       if (PromoCode != other.PromoCode) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(DiscountPercent, other.DiscountPercent)) return false;
-      if (Status != other.Status) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Price, other.Price)) return false;
       if (CreatedAt != other.CreatedAt) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -507,7 +493,6 @@ namespace booking_service {
       if (HotelId.Length != 0) hash ^= HotelId.GetHashCode();
       if (PromoCode.Length != 0) hash ^= PromoCode.GetHashCode();
       if (DiscountPercent != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(DiscountPercent);
-      if (Status.Length != 0) hash ^= Status.GetHashCode();
       if (Price != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Price);
       if (CreatedAt.Length != 0) hash ^= CreatedAt.GetHashCode();
       if (_unknownFields != null) {
@@ -548,16 +533,12 @@ namespace booking_service {
         output.WriteRawTag(41);
         output.WriteDouble(DiscountPercent);
       }
-      if (Status.Length != 0) {
-        output.WriteRawTag(50);
-        output.WriteString(Status);
-      }
       if (Price != 0D) {
-        output.WriteRawTag(57);
+        output.WriteRawTag(49);
         output.WriteDouble(Price);
       }
       if (CreatedAt.Length != 0) {
-        output.WriteRawTag(66);
+        output.WriteRawTag(58);
         output.WriteString(CreatedAt);
       }
       if (_unknownFields != null) {
@@ -590,16 +571,12 @@ namespace booking_service {
         output.WriteRawTag(41);
         output.WriteDouble(DiscountPercent);
       }
-      if (Status.Length != 0) {
-        output.WriteRawTag(50);
-        output.WriteString(Status);
-      }
       if (Price != 0D) {
-        output.WriteRawTag(57);
+        output.WriteRawTag(49);
         output.WriteDouble(Price);
       }
       if (CreatedAt.Length != 0) {
-        output.WriteRawTag(66);
+        output.WriteRawTag(58);
         output.WriteString(CreatedAt);
       }
       if (_unknownFields != null) {
@@ -626,9 +603,6 @@ namespace booking_service {
       }
       if (DiscountPercent != 0D) {
         size += 1 + 8;
-      }
-      if (Status.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Status);
       }
       if (Price != 0D) {
         size += 1 + 8;
@@ -662,9 +636,6 @@ namespace booking_service {
       }
       if (other.DiscountPercent != 0D) {
         DiscountPercent = other.DiscountPercent;
-      }
-      if (other.Status.Length != 0) {
-        Status = other.Status;
       }
       if (other.Price != 0D) {
         Price = other.Price;
@@ -707,15 +678,11 @@ namespace booking_service {
             DiscountPercent = input.ReadDouble();
             break;
           }
-          case 50: {
-            Status = input.ReadString();
-            break;
-          }
-          case 57: {
+          case 49: {
             Price = input.ReadDouble();
             break;
           }
-          case 66: {
+          case 58: {
             CreatedAt = input.ReadString();
             break;
           }
@@ -754,15 +721,11 @@ namespace booking_service {
             DiscountPercent = input.ReadDouble();
             break;
           }
-          case 50: {
-            Status = input.ReadString();
-            break;
-          }
-          case 57: {
+          case 49: {
             Price = input.ReadDouble();
             break;
           }
-          case 66: {
+          case 58: {
             CreatedAt = input.ReadString();
             break;
           }

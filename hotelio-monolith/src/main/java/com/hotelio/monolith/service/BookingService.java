@@ -3,10 +3,22 @@ package com.hotelio.monolith.service;
 import com.hotelio.monolith.entity.Booking;
 import com.hotelio.monolith.entity.PromoCode;
 import com.hotelio.monolith.repository.BookingRepository;
+import com.hotelio.proto.booking.BookingGrpc;
+import com.hotelio.proto.booking.BookingRequest;
+import com.hotelio.proto.booking.BookingResponse;
+import com.hotelio.proto.booking.BookingListRequest;
+import com.hotelio.proto.booking.BookingListResponse;
+import io.grpc.ManagedChannel;
+import io.grpc.ManagedChannelBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import jakarta.annotation.PostConstruct;
+import java.time.Instant;
+import java.time.LocalDateTime;
+import java.time.ZoneOffset;
 import java.util.List;
 import java.util.Optional;
 
@@ -20,6 +32,14 @@ public class BookingService {
     private final ReviewService reviewService;
     private final AppUserService userService;
     private final HotelService hotelService;
+
+    @Value("${BOOKING_SERVICE_EXTERNAL_HOST:}")
+    private String externalHost;
+
+    @Value("${BOOKING_SERVICE_EXTERNAL_PORT:0}")
+    private int externalPort;
+
+    private BookingGrpc.BookingBlockingStub grpcClient;
 
     public BookingService(
             BookingRepository bookingRepository,
@@ -35,30 +55,89 @@ public class BookingService {
         this.hotelService = hotelService;
     }
 
+    @PostConstruct
+    public void initGrpcClient() {
+        if (!externalHost.isEmpty() && externalPort != 0) {
+            ManagedChannel channel = ManagedChannelBuilder.forAddress(externalHost, externalPort)
+                    .usePlaintext()
+                    .build();
+            grpcClient = BookingGrpc.newBlockingStub(channel);
+            log.info("Initialized gRPC client for booking-service at {}:{}", externalHost, externalPort);
+        }
+    }
+
     public List<Booking> listAll(String userId) {
-        return userId != null ? bookingRepository.findByUserId(userId) : bookingRepository.findAll();
+        if (grpcClient != null) {
+            log.info("Redirecting ListBookings to booking-service for userId={}", userId);
+            BookingListRequest request = BookingListRequest.newBuilder()
+                    .setUserId(userId != null ? userId : "")
+                    .build();
+            BookingListResponse response = grpcClient.listBookings(request);
+            return response.getBookingsList().stream()
+                    .map(this::mapGrpcToBooking)
+                    .toList();
+        } else {
+            log.info("Using local BookingRepository for listAll, userId={}", userId);
+            return userId != null ? bookingRepository.findByUserId(userId) : bookingRepository.findAll();
+        }
     }
 
     public Booking createBooking(String userId, String hotelId, String promoCode) {
-        log.info("Creating booking: userId={}, hotelId={}, promoCode={}", userId, hotelId, promoCode);
+        if (grpcClient != null) {
+            log.info("Redirecting CreateBooking to booking-service: userId={}, hotelId={}, promoCode={}", userId, hotelId, promoCode);
+            BookingRequest request = BookingRequest.newBuilder()
+                    .setUserId(userId)
+                    .setHotelId(hotelId)
+                    .setPromoCode(promoCode != null ? promoCode : "")
+                    .build();
+            BookingResponse response = grpcClient.createBooking(request);
+            return mapGrpcToBooking(response);
+        } else {
+            log.info("Creating booking locally: userId={}, hotelId={}, promoCode={}", userId, hotelId, promoCode);
 
-        validateUser(userId);
-        validateHotel(hotelId);
+            validateUser(userId);
+            validateHotel(hotelId);
 
-        double basePrice = resolveBasePrice(userId);
-        double discount = resolvePromoDiscount(promoCode, userId);
+            double basePrice = resolveBasePrice(userId);
+            double discount = resolvePromoDiscount(promoCode, userId);
 
-        double finalPrice = basePrice - discount;
-        log.info("Final price calculated: base={}, discount={}, final={}", basePrice, discount, finalPrice);
+            double finalPrice = basePrice - discount;
+            log.info("Final price calculated: base={}, discount={}, final={}", basePrice, discount, finalPrice);
 
+            Booking booking = new Booking();
+            booking.setUserId(userId);
+            booking.setHotelId(hotelId);
+            booking.setPromoCode(promoCode);
+            booking.setDiscountPercent(discount);
+            booking.setPrice(finalPrice);
+
+            return bookingRepository.save(booking);
+        }
+    }
+
+    private Booking mapGrpcToBooking(BookingResponse grpcBooking) {
         Booking booking = new Booking();
-        booking.setUserId(userId);
-        booking.setHotelId(hotelId);
-        booking.setPromoCode(promoCode);
-        booking.setDiscountPercent(discount);
-        booking.setPrice(finalPrice);
+        booking.setId(grpcBooking.getId());
+        booking.setUserId(grpcBooking.getUserId());
+        booking.setHotelId(grpcBooking.getHotelId());
+        booking.setPromoCode(grpcBooking.getPromoCode().isEmpty() ? null : grpcBooking.getPromoCode());
+        booking.setDiscountPercent(grpcBooking.getDiscountPercent());
+        booking.setPrice(grpcBooking.getPrice());
 
-        return bookingRepository.save(booking);
+        if (!grpcBooking.getCreatedAt().isEmpty()) {
+            try {
+                String iso = grpcBooking.getCreatedAt().replace("Z", "");
+                LocalDateTime ldt = LocalDateTime.parse(iso);
+                booking.setCreatedAt(ldt.toInstant(ZoneOffset.UTC));
+            } catch (Exception e) {
+                log.warn("Failed to parse createdAt: {}", grpcBooking.getCreatedAt(), e);
+                booking.setCreatedAt(Instant.now());
+            }
+        } else {
+            booking.setCreatedAt(Instant.now());
+        }
+
+        return booking;
     }
 
     private void validateUser(String userId) {

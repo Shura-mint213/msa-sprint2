@@ -10,11 +10,8 @@ namespace BookingDB
 {
     public class BookingContext : DbContext
     {
-        public DbSet<Booking> Bookings => Set<Booking>();
+        public DbSet<Booking> Bookings { get; set; } 
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseNpgsql("");
-        }
+        public BookingContext(DbContextOptions<BookingContext> options) : base(options) { }
     }
 }

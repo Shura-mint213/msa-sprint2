@@ -8,8 +8,7 @@ import java.time.Instant;
 public class Booking {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private String id;
 
     private String userId;
     private String hotelId;
@@ -22,11 +21,14 @@ public class Booking {
 
     private Instant createdAt;
 
-    public Long getId() {
+    // Конструктор по умолчанию
+    public Booking() {}
+
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 

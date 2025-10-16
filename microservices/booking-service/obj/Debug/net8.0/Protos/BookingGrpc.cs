@@ -11,9 +11,9 @@ namespace booking_service {
   /// <summary>
   /// gRPC-сервис бронирования
   /// </summary>
-  public static partial class Booking
+  public static partial class BookingService
   {
-    static readonly string __ServiceName = "booking.Booking";
+    static readonly string __ServiceName = "booking.BookingService";
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
@@ -79,9 +79,9 @@ namespace booking_service {
       get { return global::booking_service.BookingReflection.Descriptor.Services[0]; }
     }
 
-    /// <summary>Base class for server-side implementations of Booking</summary>
-    [grpc::BindServiceMethod(typeof(Booking), "BindService")]
-    public abstract partial class BookingBase
+    /// <summary>Base class for server-side implementations of BookingService</summary>
+    [grpc::BindServiceMethod(typeof(BookingService), "BindService")]
+    public abstract partial class BookingServiceBase
     {
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::booking_service.BookingResponse> CreateBooking(global::booking_service.BookingRequest request, grpc::ServerCallContext context)
@@ -100,7 +100,7 @@ namespace booking_service {
     /// <summary>Creates service definition that can be registered with a server</summary>
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static grpc::ServerServiceDefinition BindService(BookingBase serviceImpl)
+    public static grpc::ServerServiceDefinition BindService(BookingServiceBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_CreateBooking, serviceImpl.CreateBooking)
@@ -112,7 +112,7 @@ namespace booking_service {
     /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, BookingBase serviceImpl)
+    public static void BindService(grpc::ServiceBinderBase serviceBinder, BookingServiceBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_CreateBooking, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::booking_service.BookingRequest, global::booking_service.BookingResponse>(serviceImpl.CreateBooking));
       serviceBinder.AddMethod(__Method_ListBookings, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::booking_service.BookingListRequest, global::booking_service.BookingListResponse>(serviceImpl.ListBookings));

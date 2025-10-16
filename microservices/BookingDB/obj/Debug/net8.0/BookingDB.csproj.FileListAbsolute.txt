@@ -11,3 +11,18 @@ C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросерви
 C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\BookingDB\obj\Debug\net8.0\refint\BookingDB.dll
 C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.pdb
 C:\Users\Alexandr\OneDrive\Рабочий стол\teaching\Микросервисы\2_sprint\microservices\BookingDB\obj\Debug\net8.0\ref\BookingDB.dll
+D:\study\microservices\2_sprint\microservices\BookingDB\bin\Debug\net8.0\BookingDB.deps.json
+D:\study\microservices\2_sprint\microservices\BookingDB\bin\Debug\net8.0\BookingDB.runtimeconfig.json
+D:\study\microservices\2_sprint\microservices\BookingDB\bin\Debug\net8.0\BookingDB.dll
+D:\study\microservices\2_sprint\microservices\BookingDB\bin\Debug\net8.0\BookingDB.pdb
+D:\study\microservices\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.csproj.AssemblyReference.cache
+D:\study\microservices\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\microservices\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.AssemblyInfoInputs.cache
+D:\study\microservices\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.AssemblyInfo.cs
+D:\study\microservices\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.csproj.CoreCompileInputs.cache
+D:\study\microservices\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.sourcelink.json
+D:\study\microservices\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.dll
+D:\study\microservices\2_sprint\microservices\BookingDB\obj\Debug\net8.0\refint\BookingDB.dll
+D:\study\microservices\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.pdb
+D:\study\microservices\2_sprint\microservices\BookingDB\obj\Debug\net8.0\BookingDB.genruntimeconfig.cache
+D:\study\microservices\2_sprint\microservices\BookingDB\obj\Debug\net8.0\ref\BookingDB.dll

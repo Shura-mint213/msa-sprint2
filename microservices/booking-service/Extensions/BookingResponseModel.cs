@@ -8,7 +8,6 @@
             {
                 Id = booking.Id,
                 DiscountPercent = booking.DiscountPercent,
-                Status = booking.Status,
                 HotelId = booking.HotelId,
                 PromoCode = booking.PromoCode,
                 Price = booking.Price,

@@ -18,9 +18,8 @@ message BookingResponse {
   string hotel_id = 3;
   string promo_code = 4;
   double discount_percent = 5;
-  string status = 6;
-  double price = 7;
-  string created_at = 8; // ISO-8601
+  double price = 6;
+  string created_at = 7; // ISO-8601
 }
 
 // Запрос на получение списка бронирований по userId
@@ -34,7 +33,7 @@ message BookingListResponse {
 }
 
 // gRPC-сервис бронирования
-service Booking {
+service BookingService {
   rpc CreateBooking(BookingRequest) returns (BookingResponse);
   rpc ListBookings(BookingListRequest) returns (BookingListResponse);
 }

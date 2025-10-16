@@ -1,0 +1,40 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "booking_client";
+
+package booking;
+
+// ������ �� �������� ������������
+message BookingRequest {
+  string user_id = 1;
+  string hotel_id = 2;
+  string promo_code = 3; //optional
+}
+
+// ����� ��� �������� ������������
+message BookingResponse {
+  string id = 1;
+  string user_id = 2;
+  string hotel_id = 3;
+  string promo_code = 4;
+  double discount_percent = 5;
+  string status = 6;
+  double price = 7;
+  string created_at = 8; // ISO-8601
+}
+
+// ������ �� ��������� ������ ������������ �� userId
+message BookingListRequest {
+  string user_id = 1;
+}
+
+// ����� �� ������� ������������
+message BookingListResponse {
+  repeated BookingResponse bookings = 1;
+}
+
+// gRPC-������ ������������
+service Booking {
+  rpc CreateBooking(BookingRequest) returns (BookingResponse);
+  rpc ListBookings(BookingListRequest) returns (BookingListResponse);
+}
