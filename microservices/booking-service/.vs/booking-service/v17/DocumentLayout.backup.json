@@ -3,8 +3,66 @@
   "WorkspaceRootPath": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking-service\\services\\kafkaconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|solutionrelative:services\\kafkaconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking-service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking-service\\extensions\\bookingresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|solutionrelative:extensions\\bookingresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking-service\\servicesgrpc\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|solutionrelative:servicesgrpc\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking-service\\servicesgrpc\\bookingservicegrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|solutionrelative:servicesgrpc\\bookingservicegrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking-service\\implementation\\bookingserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|solutionrelative:implementation\\bookingserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking-service\\services\\bookingvalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|solutionrelative:services\\bookingvalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking-service\\interfaces\\ibookingserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|solutionrelative:interfaces\\ibookingserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44360CAC-B831-4E16-9A2B-4CC647252319}|..\\BookingDB\\BookingDB.csproj|d:\\study\\microservices\\2_sprint\\microservices\\bookingdb\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking-service\\protos\\booking.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|solutionrelative:protos\\booking.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking-service\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking-service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking-service\\booking-service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|solutionrelative:booking-service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking-service\\protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|solutionrelative:protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44360CAC-B831-4E16-9A2B-4CC647252319}|..\\BookingDB\\BookingDB.csproj|d:\\study\\microservices\\2_sprint\\microservices\\bookingdb\\migrations\\20251014113218_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking-service\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C921C3B4-B515-4E73-92E8-FB1B6641239B}|booking-service.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +72,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +84,210 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "GreeterService.cs",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\ServicesGrpc\\GreeterService.cs",
+              "RelativeDocumentMoniker": "ServicesGrpc\\GreeterService.cs",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\ServicesGrpc\\GreeterService.cs",
+              "RelativeToolTip": "ServicesGrpc\\GreeterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:05:37.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T05:34:23.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingResponseModel.cs",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Extensions\\BookingResponseModel.cs",
+              "RelativeDocumentMoniker": "Extensions\\BookingResponseModel.cs",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Extensions\\BookingResponseModel.cs",
+              "RelativeToolTip": "Extensions\\BookingResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T10:53:44.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KafkaConsumerService.cs",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Services\\KafkaConsumerService.cs",
+              "RelativeDocumentMoniker": "Services\\KafkaConsumerService.cs",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Services\\KafkaConsumerService.cs",
+              "RelativeToolTip": "Services\\KafkaConsumerService.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAGcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T09:27:39.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingServiceGrpc.cs",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\ServicesGrpc\\BookingServiceGrpc.cs",
+              "RelativeDocumentMoniker": "ServicesGrpc\\BookingServiceGrpc.cs",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\ServicesGrpc\\BookingServiceGrpc.cs",
+              "RelativeToolTip": "ServicesGrpc\\BookingServiceGrpc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:25:26.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookingServiceImpl.cs",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Implementation\\BookingServiceImpl.cs",
+              "RelativeDocumentMoniker": "Implementation\\BookingServiceImpl.cs",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Implementation\\BookingServiceImpl.cs",
+              "RelativeToolTip": "Implementation\\BookingServiceImpl.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:06:30.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookingValidationService.cs",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Services\\BookingValidationService.cs",
+              "RelativeDocumentMoniker": "Services\\BookingValidationService.cs",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Services\\BookingValidationService.cs",
+              "RelativeToolTip": "Services\\BookingValidationService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T07:27:11.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBookingServiceImpl.cs",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Interfaces\\IBookingServiceImpl.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IBookingServiceImpl.cs",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Interfaces\\IBookingServiceImpl.cs",
+              "RelativeToolTip": "Interfaces\\IBookingServiceImpl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:05:31.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\BookingDB\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "..\\BookingDB\\Models\\Booking.cs",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\BookingDB\\Models\\Booking.cs",
+              "RelativeToolTip": "..\\BookingDB\\Models\\Booking.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA8wCoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:27:41.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "booking.proto",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Protos\\booking.proto",
+              "RelativeDocumentMoniker": "Protos\\booking.proto",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Protos\\booking.proto",
+              "RelativeToolTip": "Protos\\booking.proto",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-10-16T08:17:59.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-16T06:08:06.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-16T05:47:45.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "booking-service",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\booking-service.csproj",
+              "RelativeDocumentMoniker": "booking-service.csproj",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\booking-service.csproj",
+              "RelativeToolTip": "booking-service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-16T06:39:31.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "greet.proto",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Protos\\greet.proto",
+              "RelativeDocumentMoniker": "Protos\\greet.proto",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Protos\\greet.proto",
+              "RelativeToolTip": "Protos\\greet.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-10-16T08:17:58.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20251014113218_InitialCreate.cs",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\BookingDB\\Migrations\\20251014113218_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\BookingDB\\Migrations\\20251014113218_InitialCreate.cs",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\BookingDB\\Migrations\\20251014113218_InitialCreate.cs",
+              "RelativeToolTip": "..\\BookingDB\\Migrations\\20251014113218_InitialCreate.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:39:44.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking-service\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-16T05:47:39.458Z",
               "EditorCaption": ""
             }
           ]

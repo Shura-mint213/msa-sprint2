@@ -134,7 +134,7 @@ services:
         dotnet booking-service.dll
       "
     healthcheck:
-      test: ["CMD-SHELL", "timeout 5 bash -c '< /dev/tcp/localhost/8081' || exit 1"]
+      test: ["CMD-SHELL", "timeout 1 bash -c '</dev/tcp/localhost/8081' || exit 1"]
       interval: 10s
       timeout: 5s
       retries: 6

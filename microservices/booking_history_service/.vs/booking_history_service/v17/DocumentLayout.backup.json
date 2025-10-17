@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C0732B62-2734-4026-B809-41D9E1E30135}|booking_history_service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0732B62-2734-4026-B809-41D9E1E30135}|booking_history_service.csproj|solutionrelative:models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C0732B62-2734-4026-B809-41D9E1E30135}|booking_history_service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\kafkahistoryconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0732B62-2734-4026-B809-41D9E1E30135}|booking_history_service.csproj|solutionrelative:kafkahistoryconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +15,12 @@
       "RelativeMoniker": "D:0:0:{C0732B62-2734-4026-B809-41D9E1E30135}|booking_history_service.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0732B62-2734-4026-B809-41D9E1E30135}|booking_history_service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0732B62-2734-4026-B809-41D9E1E30135}|booking_history_service.csproj|solutionrelative:models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0732B62-2734-4026-B809-41D9E1E30135}|booking_history_service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\migrations\\historycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0732B62-2734-4026-B809-41D9E1E30135}|booking_history_service.csproj|solutionrelative:migrations\\historycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0732B62-2734-4026-B809-41D9E1E30135}|booking_history_service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\migrations\\20251016110359_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0732B62-2734-4026-B809-41D9E1E30135}|booking_history_service.csproj|solutionrelative:migrations\\20251016110359_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0732B62-2734-4026-B809-41D9E1E30135}|booking_history_service.csproj|d:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -36,7 +44,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -48,7 +56,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HistoryContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\Migrations\\HistoryContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\HistoryContextModelSnapshot.cs",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\Migrations\\HistoryContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\HistoryContextModelSnapshot.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwCsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:04:20.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T05:44:17.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Entities.cs",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\Models\\Entities.cs",
+              "RelativeDocumentMoniker": "Models\\Entities.cs",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\Models\\Entities.cs",
+              "RelativeToolTip": "Models\\Entities.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T05:49:15.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KafkaHistoryConsumerService.cs",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\KafkaHistoryConsumerService.cs",
+              "RelativeDocumentMoniker": "KafkaHistoryConsumerService.cs",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\KafkaHistoryConsumerService.cs",
+              "RelativeToolTip": "KafkaHistoryConsumerService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwEEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T05:48:28.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20251016110359_InitialCreate.cs",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\Migrations\\20251016110359_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251016110359_InitialCreate.cs",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\Migrations\\20251016110359_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20251016110359_InitialCreate.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:04:15.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-14T12:56:37.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "HistoryContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Alexandr\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\teaching\\\u041C\u0438\u043A\u0440\u043E\u0441\u0435\u0440\u0432\u0438\u0441\u044B\\2_sprint\\microservices\\booking_history_service\\Migrations\\HistoryContextModelSnapshot.cs",
               "ToolTip": "C:\\Users\\Alexandr\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\teaching\\\u041C\u0438\u043A\u0440\u043E\u0441\u0435\u0440\u0432\u0438\u0441\u044B\\2_sprint\\microservices\\booking_history_service\\Migrations\\HistoryContextModelSnapshot.cs",
@@ -58,58 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\Dockerfile",
-              "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\Dockerfile",
-              "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-14T12:56:37.535Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Entities.cs",
-              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\Models\\Entities.cs",
-              "RelativeDocumentMoniker": "Models\\Entities.cs",
-              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\Models\\Entities.cs",
-              "RelativeToolTip": "Models\\Entities.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T05:49:15.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T05:44:17.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "KafkaHistoryConsumerService.cs",
-              "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\KafkaHistoryConsumerService.cs",
-              "RelativeDocumentMoniker": "KafkaHistoryConsumerService.cs",
-              "ToolTip": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\KafkaHistoryConsumerService.cs",
-              "RelativeToolTip": "KafkaHistoryConsumerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T05:48:28.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "20251014111911_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Alexandr\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\teaching\\\u041C\u0438\u043A\u0440\u043E\u0441\u0435\u0440\u0432\u0438\u0441\u044B\\2_sprint\\microservices\\booking_history_service\\Migrations\\20251014111911_InitialCreate.cs",
               "ToolTip": "C:\\Users\\Alexandr\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\teaching\\\u041C\u0438\u043A\u0440\u043E\u0441\u0435\u0440\u0432\u0438\u0441\u044B\\2_sprint\\microservices\\booking_history_service\\Migrations\\20251014111911_InitialCreate.cs",
@@ -119,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "booking_history_service.csproj",
               "DocumentMoniker": "D:\\study\\microservices\\2_sprint\\microservices\\booking_history_service\\booking_history_service.csproj",
               "RelativeDocumentMoniker": "booking_history_service.csproj",

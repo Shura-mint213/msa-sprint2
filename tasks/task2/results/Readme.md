@@ -1,6 +1,6 @@
 ### <a name="_b7urdng99y53"></a>**Название задачи:** Микросервисная миграция BookingService и HistoryService
 ### <a name="_hjk0fkfyohdk"></a>**Автор:** Швецов Александр
-### <a name="_uanumrh8zrui"></a>**Дата:** 13.10.2025
+### <a name="_uanumrh8zrui"></a>**Дата:** 16.10.2025
 
 
 ## Обзор решения

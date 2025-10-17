@@ -42,8 +42,7 @@ builder.Services.AddGrpc();
 builder.Services.AddTransient<BookingValidationService>();
 builder.Services.AddTransient<IBookingServiceImpl, BookingServiceImpl>();
 
-
-builder.Services.AddHostedService<KafkaConsumerService>();
+//builder.Services.AddHostedService<KafkaConsumerService>();
 
 var app = builder.Build();
 

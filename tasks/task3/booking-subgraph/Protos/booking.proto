@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+option csharp_namespace = "booking_service";
+
+package booking;
+
+// «апрос на создание бронировани€
+message BookingRequest {
+  string user_id = 1;
+  string hotel_id = 2;
+  string promo_code = 3; //optional
+}
+
+// ќтвет при создании бронировани€
+message BookingResponse {
+  string id = 1;
+  string user_id = 2;
+  string hotel_id = 3;
+  string promo_code = 4;
+  double discount_percent = 5;
+  double price = 6;
+  string created_at = 7; // ISO-8601
+}
+
+// «апрос на получение списка бронирований по userId
+message BookingListRequest {
+  string user_id = 1;
+}
+
+// ќтвет со списком бронирований
+message BookingListResponse {
+  repeated BookingResponse bookings = 1;
+}
+
+// gRPC-сервис бронировани€
+service BookingService {
+  rpc CreateBooking(BookingRequest) returns (BookingResponse);
+  rpc ListBookings(BookingListRequest) returns (BookingListResponse);
+}
