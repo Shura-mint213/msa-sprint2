@@ -1,0 +1,25 @@
+build  starting shell (build)
+build  $ docker build -t ${IMAGE_NAME}:${IMAGE_TAG} booking-service/
+build  finished in 5.27 s
+test   starting shell (test)
+test   $ docker run -d --name booking-test -p 8080:8080 -e ENABLE_FEATURE_X=true ${IMAGE_NAME}:${IMAGE_TAG}
+test   > 5244616c07af5fe10f2acd41f002994d700ee9177bb9d25241cc49dd450c6f1f
+test   $ sleep 2
+test   $ curl -f http://localhost:8080/ping || (docker logs booking-test && exit 1)
+test   > pong<gclShellPromptPlaceholder> curl -f http://localhost:8080/feature || (docker logs booking-test && exit 1)
+test   > Feature X is enabled!<gclShellPromptPlaceholder> docker stop booking-test
+test   > booking-test
+test   $ docker rm booking-test
+test   > booking-test
+test   finished in 4.21 s
+deploy starting shell (deploy)
+deploy $ minikube image load ${IMAGE_NAME}:${IMAGE_TAG}
+deploy > 
+deploy > 
+
+ PASS  build 
+ PASS  test  
+ FAIL  deploy
+  > │    * - /tmp/minikube_image_12106389e6458c1396c363da233f2af8cbe9eee7_0.log                   │
+  > │                                                                                             │
+  > ╰─────────────────────────────────────────────────────────────────────────────────────────────╯

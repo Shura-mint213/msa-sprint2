@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL}
+    username: ${SPRING_DATASOURCE_USERNAME}
+    password: ${SPRING_DATASOURCE_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate.format_sql: false
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info  # Добавь info для деталей
+  endpoint:
+    health:
+      show-details: always
+#booking:
+#  service:
+#    external-host: booking-service
+#    external-port: 9090

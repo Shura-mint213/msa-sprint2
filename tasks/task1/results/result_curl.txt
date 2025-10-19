@@ -1,0 +1,14 @@
+GIT BUSH
+$ curl http://localhost:8084/api/users/test-user-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   126    0   126    0     0   4407      0 --:--:-- --:--:-- --:--:--  4500{"id":"test-user-1","status":"ACTIVE","blacklisted":true,"active":true,"name":"Alice","email":"alice@test.com","city":"Seoul"}
+
+$ curl http://localhost:8084/api/users/test-user-1/active
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100     4    0     4    0     0    139      0 --:--:-- --:--:-- --:--:--   142 true
+
+CMD
+http://localhost:8084/api/users/test-user-1/blacklisted
+true

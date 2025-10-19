@@ -1,0 +1,72 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+LAYOUT_WITH_LEGEND()
+System_Boundary(monolith, "Monolith Proxy") {
+
+    ' Controllers
+    Component(bookingController, "BookingController", "Spring MVC", "/api/bookings")
+    Component(hotelController, "HotelController", "Spring MVC", "/api/hotels")
+    Component(promoController, "PromoCodeController", "Spring MVC", "/api/promos")
+    Component(reviewController, "ReviewController", "Spring MVC", "/api/reviews")
+    Component(userController, "UserController", "Spring MVC", "/api/users")
+    Component(proxy, "gRPC Proxy", "Null-check", "To Booking Service")
+
+    ' Services
+    Component(hotelService, "HotelService", "Java Service", "Retrieves hotel details")
+    Component(userService, "UserService", "Java Service", "Validates user status and blacklist")
+    Component(promoService, "PromoCodeService", "Java Service", "Applies discounts and rules")
+    Component(reviewService, "ReviewService", "Java Service", "Manages hotel reviews")
+
+    ' DB
+    ComponentDb(postgres, "Monolith DB", "PostgreSQL", "Stores users, hotels, bookings, reviews, promos")
+
+    ' Controller-Service relations
+    Rel(hotelController, hotelService, "Uses")
+    Rel(promoController, promoService, "Uses")
+    Rel(reviewController, reviewService, "Uses")
+    Rel(userController, userService, "Uses")
+
+    ' ' Service-Service and Service-DB
+    ' Rel(bookingService, hotelService, "Calls")
+    ' Rel(bookingService, userService, "Calls")
+    ' Rel(bookingService, promoService, "Calls")
+    ' Rel(bookingService, reviewService, "Calls")
+
+    Rel(userService, postgres, "Reads")
+    Rel(hotelService, postgres, "Reads")
+    Rel(promoService, postgres, "Reads")
+    Rel(reviewService, postgres, "Reads/Writes")
+}
+
+System_Boundary(booking, "Booking Microservice") {
+    Component(grpcServer, "gRPC Server", "Receives", "From Proxy")
+    Component(bookingService, "BookingService", "Validates", "User/Hotel/Promo/Review")
+    ComponentDb(db, "Booking DB", "PostgreSQL", "Separate")
+}
+
+Container(kafka, "Message broker", "Kafka", "Event buffer")
+
+Person(user, "User", "Interacts with frontend")
+
+Rel(bookingController, proxy, "Uses")
+Rel(proxy, grpcServer, "gRPC Call")
+Rel(grpcServer, bookingService, "Uses")
+Rel(bookingService, db, "Reads/Writes")
+Rel(user, bookingController, "Uses")
+Rel(user, hotelController, "Uses")
+Rel(user, promoController, "Uses")
+Rel(user, reviewController, "Uses")
+Rel(user, userController, "Uses")
+
+' ==== Kafka ====
+Rel_D(bookingService, kafka, "Publish")
+Rel_U(kafka, userService, "Subscribe")
+Rel_U(kafka, hotelService, "Subscribe")
+Rel_U(kafka, promoService, "Subscribe")
+Rel_U(kafka, reviewService, "Subscribe")
+Rel_D(reviewService, kafka, "Publish")
+Rel_D(promoService, kafka, "Publish")
+Rel_D(hotelService, kafka, "Publish")
+Rel_D(userService, kafka, "Publish")
+
+@enduml
